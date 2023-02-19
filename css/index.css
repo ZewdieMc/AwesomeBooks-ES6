@@ -96,6 +96,19 @@ form input[type='submit'] {
   box-shadow: 1px 1px 2px 2px #ccc;
 }
 
+form span.book-added-alert {
+  color: green;
+  font-weight: bold;
+  margin: 10px 0;
+  background-color: #abe6d4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+form span.book-added-alert.hidden {
+  display: none;
+}
+
 .form-add:hover {
   background-color: #ccc;
 }
