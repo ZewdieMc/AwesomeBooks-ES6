@@ -59,6 +59,8 @@ class UI {
       setTimeout(() => {
         addBookBtn.classList.add('hidden');
       }, 5000);
+      bookTitleInput.value = '';
+      bookAuthorInput.value = '';
     }
     this.renderBooks();
   };
