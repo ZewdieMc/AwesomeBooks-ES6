@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Awesome Books">
+  <meta name="author" content="Zewdie Habtie">
+  <meta name="keywords" content="Awesome Books, ES6">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Awesome Books: ES6</title>
+</head>
+<body>
+  <header>
+    <nav>
+        <span class="logo">Awesome Books</span>
+        <ul class="menu">
+            <li data-target ='book-section'class="nav-list active">Book List</li>
+            <li>|</li>
+            <li data-target ='add-book-section'class="nav-add">Add new</li>
+            <li>|</li>
+            <li data-target ='contact-section'class="nav-contact"> Contact</li>
+        </ul>
+    </nav>
+    <div class="date-div">
+        March 19th 2021
+    </div>
+</header>
+<main class="main-section">
+    <section class="book-section">
+        <div class="books">
+            <h1 class="heading">Awesome Books</h1>
+            <ul class="book-list">
+                <li>
+                    <div class="book-title">Book title</div>
+                    <div class="book-title">Book description</div>
+                    <button class="remove_book">Remove</button>
+                    <hr>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="add-book-section hidden">
+        <form action="">
+            <h2 class="form-heading">Add a new book</h2>
+            <label for="form-title" hidden></label>
+            <input type="text" name="form-title" id="form-title" placeholder="Title" required><br>
+            <label for="form-author"></label>
+            <input type="text" name="form-author" id="form-author" placeholder="Author" required><br>
+            <input type="submit" class="form-add" value="Add">
+            <span class="book-added-alert hidden"></span>
+        </form>
+    </section>
+    <section class="contact-section hidden">
+        <h2>
+            Contact information
+        </h2>
+        <div class="questions">
+            <p>Do you have any questions or you just want to say "Hello"?</p>
+            <h6>You can reach out to us!</h6>
+            <ul class="contact-info">
+                <li>Our e-mail mail@gmail.com</li>
+                <li>Our phone number 0043586534422</li>
+                <li>Our address Streetname 22, 84603 City Country</li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <span>
+
+        <div class="copy">Copyright ...</div>
+    </span>
+</footer>
+<script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+<script type="module" src="./index.js"></script>
+</body>
+</html>
