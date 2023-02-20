@@ -147,7 +147,7 @@ Deployed using Github Pages.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 Author1
+👤 Zewdie Habtie
 
 - GitHub: [@ZewdieMc](https://github.com/ZewdieMc)
 - Twitter: [@HabtieZewdie](https://twitter.com/HabtieZewdie)
